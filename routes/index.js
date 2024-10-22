@@ -1,12 +1,16 @@
-const router = require('express').Router();
+const router= require("express").Router();
+const htmlRoute=require("./html/index");
+const apiRoute=require("./api/index");
 
-// Import our modular routers for /tips and /feedback
-const tipsRouter = require('./tips');
-const feedbackRouter = require('./feedback');
-const diagnosticsRouter = require('./diagnostics');
+//api routes
+//http://localhost:3001/api
+router.use("/api",apiRoute);
 
-router.use('/tips', tipsRouter);
-router.use('/feedback', feedbackRouter);
-router.use('/diagnostics', diagnosticsRouter);
+//html routes
+//http://localhost:3001/
+router.use("/",htmlRoute);
 
-module.exports = router;
+
+
+
+module.exports=router;
