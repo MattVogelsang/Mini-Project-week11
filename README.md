@@ -1,6 +1,6 @@
 # Note Taker Application
 
-<img src="(image.png)">
+<img src="/images/image.png">
 
 
 ## Table of Contents
