@@ -1,5 +1,8 @@
 # Note Taker Application
 
+<img src="(image.png)">
+
+
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
